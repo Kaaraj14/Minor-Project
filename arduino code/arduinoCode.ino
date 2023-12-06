@@ -20,10 +20,10 @@
 #define DHTTYPE DHT11
 #define MQ135_PIN A0
 
-const char *wifi_ssid = "OnePlus 8 Pro";
-const char *wifi_password = "kaaraj@123";
+const char *wifi_ssid = "xxxxxxxxxxx";
+const char *wifi_password = "xxxxxxxxxxx";
 // const char *mqtt_server = "91.121.93.94";
-const char *mqtt_server = "192.168.27.201";
+const char *mqtt_server = "192.168.xxx.xxx";
 const int mqtt_port = 1883;
 const char *mqtt_client_id = "weatherstation1";
 
