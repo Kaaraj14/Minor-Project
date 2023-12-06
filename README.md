@@ -10,9 +10,7 @@ This project involves monitoring environmental parameters using various sensors 
 - **DHT11 Sensor:** Measures temperature and humidity.
 - **BMP280 Sensor:** Measures temperature, pressure, and altitude.
 - **MQ135 Sensor:** Measures air quality.
-- **Arduino Uno:** Manages digital sensors like soil moisture and pH.
-- **Digital Soil Moisture Sensor:** Measures soil moisture.
-- **Digital pH Sensor:** Measures soil pH.
+
 
 ## Dependencies
 
@@ -26,7 +24,6 @@ This project involves monitoring environmental parameters using various sensors 
 
 1. **Hardware Setup:**
    - Connect DHT11, BMP280, and MQ135 sensors to the ESP8266.
-   - Connect digital soil moisture and pH sensors to the Arduino Uno.
    - Ensure proper power supply for all components.
 
 2. **Arduino IDE:**
@@ -62,6 +59,3 @@ This project involves monitoring environmental parameters using various sensors 
 
 - Mention any third-party libraries, resources, or inspirations used.
 
-## License
-
-This project is licensed under the [Your License] - see the [LICENSE](LICENSE) file for details.
