@@ -1,4 +1,4 @@
-# IoT Sensor Monitoring Project (# Minor-Project)
+# IoT Sensor Monitoring Project ( Minor-Project)
 
 ## Overview
 
