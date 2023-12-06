@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgroWeather</title>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,900;1,100;1,200;1,400&family=Ubuntu&display=swap" rel="stylesheet">
+<!-- css style -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+ <!-- font awesome -->
+ <script src="https://kit.fontawesome.com/0662df297b.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrap scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+ 
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">AgroWeather</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="feature-box collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-i con"></span>
+      </button>
+      <div class="feature-box collapse navbar-collapse" id="navbarSupportedContent">
+      
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#weather-condition">Weather Conditions</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#cta">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#features">Features</a></li>
+              <li><a class="dropdown-item" href="#hardware">Hardware</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+
+
+    <!-- Title -->
+  <div class="row">
+    <div class="feature-box col-lg-6">
+      <h1 class="big-heading">Nurturing Growth, Harvesting Precision.</h1>
+      <!-- <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button> -->
+    </div>
+    <div class="feature-box col-lg-6">
+      <img class="title-image" src="images/wheat-field-orange-tones.jpg" alt="wheat-field-orange-tones">
+    </div>
+  </div>
+</div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="fa-solid fa-circle-check icons fa-4x"></i>
+        <h3 class="feature-title">Easy to use.</h3>
+        <p>So user-friendly, it's as simple as letting your dog fetch precision weather insights with ease!</p>
+   </div>
+   <div class="feature-box col-lg-4">
+    <!-- <i class="fa-solid fa-bullseye icons fa-4x"></i> -->
+    <i class="fa-solid fa-tractor icons fa-4x"></i>
+    <h3 class="feature-title">Elite Clientele</h3>
+      <p>Streamlined for effortless use, catering to all clientele effortlessly.</p>
+    </div>
+    <div class="feature-box col-lg-4">
+      <!-- <i class="fa-solid fa-heart icons fa-4x"></i> -->
+      <i class="fa-solid fa-wheat-awn icons fa-4x"></i>
+      <h3 class="feature-title">Guaranteed to work.</h3>
+      <p>Your guaranteed solution for reliable and effective farm weather monitoring.</p>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- Hardware -->
+  <section class="colored-section" id="hardware">
+  <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active container-fluid"> 
+        <h2 class="testimonial-text">The ESP8266, specifically the Node MCU development board, is a low-cost microcontroller with integrated Wi-Fi capabilities.</h2>
+       <img class="testimonial-img" src="images/esp8266.jpg" alt="ESP8266 (Node MCU)">
+        <em>ESP8266</em>
+      </div>
+
+      <div class="carousel-item container-fluid"> 
+        <h2 class="testimonial-text">The BMP280 is a barometric pressure sensor with temperature and altitude sensing capabilities.</h2>
+       <img class="testimonial-img" src="images/bmp280.jpg" alt="BMP280">
+        <em>BMP280</em>
+      </div>
+
+      <div class="carousel-item container-fluid"> 
+        <h2 class="testimonial-text">The MQ135 is a gas sensor sensitive to multiple gases including carbon dioxide, ammonia, and methane.</h2>
+       <img class="testimonial-img" src="images/mq135.jpg" alt="MQ135">
+        <em>MQ135</em>
+      </div>
+
+      <!-- <div class="carousel-item container-fluid"> 
+        <h2 class="testimonial-text">The soil pH sensor measures the acidity or alkalinity of the soil.</h2>
+       <img class="testimonial-img" src="images/soil pH.jpg" alt="soil-pH">
+        <em>Soil pH</em>
+      </div>  -->
+
+     <div class="carousel-item container-fluid">
+        <h2 class="testimonial-text">The DHT11 is a digital temperature and humidity sensor with high accuracy and a wide operating range.</h2>
+        <img class="testimonial-img" src="images/dht11.jpg" alt="DTH11">
+        <em>DHT11 Sensor</em>
+      </div>
+
+      <!-- <div class="carousel-item container-fluid">
+        <h2 class="testimonial-text">The soil moisture sensor measures the volumetric water content in the soil.</h2>
+        <img class="testimonial-img" src="images/soil moisture.jpg" alt="soil-moisture">
+        <em>Soil Moisture</em>
+      </div> -->
+
+      <div class="carousel-item container-fluid">
+        <h2 class="testimonial-text">Selecting appropriate batteries involves considering capacity, voltage, and longevity.</h2>
+        <img class="testimonial-img" src="images/battery.jpg" alt="batteries">
+        <em>Batteries</em>
+      </div>
+
+      <div class="carousel-item container-fluid">
+        <h2 class="testimonial-text">Breadboards and wires facilitate the temporary assembly of electronic circuits for prototyping.</h2>
+        <img class="testimonial-img" src="images/breadboard.jpg" alt="Breadboard and Wires">
+        <em>Breadboard and Wires</em>
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" ></span>
+     
+    </a>
+    <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" ></span>
+      
+    </a>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    <!-- <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+    <img class="testimonial-img" src="images/dog-img.jpg" alt="dog-profile">
+    <em>Pebbles, New York</em> -->
+
+    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+  </section>
+
+
+  <!-- Press -->
+
+  <!-- <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section> -->
+
+
+
+  <!-- Weather Conditions-->
+
+  
+
+  <section class="white-section" id="weather-condition">
+
+    <h2 class="section-heading">Weather Conditions.</h2>
+ 
+
+    <!-- <div class="card-group"> -->
+    
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Temperature</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title Padding" id ="temperatureDHT">TemperatureReading<small class="text-body-secondary fw-light"></small></h1>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Humidity</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title Padding" id="humidityDHT">HumidityReading<small class="text-body-secondary fw-light">/mo</small></h1>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Pressure</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title Padding" id="pressure">PressureReading<small class="text-body-secondary fw-light">/mo</small></h1>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Altitude</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title Padding"id="altitude">AltitudeReading<small class="text-body-secondary fw-light">/mo</small></h1>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Air Quality</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title Padding" id="airQualityMQ135">AirQaulityReading<small class="text-body-secondary fw-light">/mo</small></h1>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>  
+  </section>
+
+
+  <!--  
+        
+       -->
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="big-heading"> Tailoring Precision Forecasting for Your Ideal Agricultural Conditions.</h3>
+      <!-- <button class="download-button btn btn-lg btn-dark" type="button"><i class="fa-brands fa-apple"></i>Download</button>
+      <button class="download-button btn btn-lg btn-light" type="button"><i class="fa-brands fa-google-play"></i>Download</button> -->
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fa-solid fa-envelope"></i>
+      <i class="social-icon fa-brands fa-twitter"></i>
+      <i class="social-icon fa-brands fa-facebook"></i>
+      <i class="social-icon fa-brands fa-instagram"></i>
+      <p>© Copyright AgroWeather</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+  <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
