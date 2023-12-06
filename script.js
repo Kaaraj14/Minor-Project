@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 	// Replace the following with your MQTT broker details
-	const brokerUrl = 'ws://192.168.27.201:9001';
+	const brokerUrl = 'ws://192.168.XXX.XXX:9001';
 
 	// Subscribe to multiple topics
 	const topics = [
