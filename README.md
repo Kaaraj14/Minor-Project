@@ -55,7 +55,4 @@ This project involves monitoring environmental parameters using various sensors 
 - **Security:**
   - Ensure secure practices, especially if deploying the system in a public network.
 
-## Acknowledgments
-
-- Mention any third-party libraries, resources, or inspirations used.
 
